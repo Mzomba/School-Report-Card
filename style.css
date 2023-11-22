@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.wrapper{
+    position: absolute;
+    margin-top: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(163, 163, 230);
+    width: 43em;
+}
+.container{
+    padding: 3em;
+    width: 95%;
+}
+.school-details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.school-name{
+    display: grid;
+    margin-left: 1em;
+}
+.first-title{
+    font-size: 2em;
+    color: blue;
+    font-weight: 600;
+}
+.second-title{
+    font-size: 0.6em
+}
+.student-details{
+    display: grid;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    margin-bottom: 1.3em;
+    box-shadow: 0 0.4em 1em rgba(28, 80, 50, 0.4);
+}
+.student-details input{
+    font-size: 1em;
+    margin-bottom: .5em;
+    border: none;
+    border-bottom: 1px solid rgb(163, 163, 230);
+}
+.student-details input:focus{
+    outline: none;
+}
+.grading-scale{
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.comments textarea{
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: rgb(43, 35, 35);
+    border-radius: 10px;
+}
+.comments textarea:focus{
+    outline: none;
+}
+.report{
+    background: white;
+    box-shadow: 0 0.4em 1em rgba(28, 80, 50, 0.4);
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.report-creator{
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0.4em 1em rgba(28, 80, 50, 0.4);
+    margin-bottom: 1em;
+}
+.report-creator input{
+    font-size: 1em;
+    margin-bottom: .5em;
+    border: none;
+    border-bottom: 1px solid rgb(163, 163, 230);
+}
+.report-creator input:focus{
+    outline: none;
+}
+.create-report-btn,
+.save-btn{
+    padding: 1em;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(163, 163, 230);
+    border: none;
+    cursor: pointer;
+}
+.sub-div{
+    width: 100%;
+    border-left: 0.3em solid #587ef4;
+    display: grid;
+    padding: 0.5em 1em;
+    margin-bottom: 0.6em;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+}
+.delete-btn,
+.edit-btn{
+    border: none;
+    margin-right: auto;
+    background: transparent;
+    cursor: pointer;
+}
+.margin{
+    margin-bottom: 1em;
+}
+.hide{
+    display: none;
+}

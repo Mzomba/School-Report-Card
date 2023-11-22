@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School report card</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="school-details">
+          <div class="badge">
+            <img
+              style="height: 100px; width: 100px; border-radius: 10px"
+              src="badge.jpeg"
+              alt="badge"
+            />
+          </div>
+          <div class="school-name">
+            <p class="first-title">Report Card</p>
+            <span class="second-title">Salford High School</span>
+          </div>
+        </div>
+        <div class="student-details">
+          <div>Name: <input type="text" placeholder="Enter Name" /></div>
+          <div>
+            Position: <input type="text" placeholder="Enter Position" />
+          </div>
+          <div>Class: <input type="text" placeholder="Enter Class" /></div>
+          <div>Term: <input type="text" placeholder="Enter Term" /></div>
+        </div>
+        <div class="report-creator" id="report-creator">
+          <div>
+            <input type="text" id="subject" placeholder="Enter subject" />
+          </div>
+          <div><input type="number" id="mark" placeholder="Enter mark" /></div>
+          <button class="create-report-btn" id="report-creator-btn">
+            Create Report
+          </button>
+        </div>
+        <div class="report hide" id="report">
+          <button id="save-btn" class="save-btn margin">Save</button>
+        </div>
+        <div class="grading-scale">
+          Grading Scale: A = 90-100% B = 80 - 89% C = 60 - 79% D = 0-59%
+        </div>
+        <div class="comments">
+          <textarea name="" id="" cols="50" rows="5">Comment: </textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
